@@ -1,0 +1,208 @@
+.logo{
+  width: 30mm;
+  height: auto;
+}
+
+
+
+.logo-img{
+ 
+  float : left;
+  position : relative;
+  top:0.02cm;
+  left : 0.5cm;
+}
+
+.stu_photo{
+  
+  width: 30mm;
+  height: auto;
+}
+
+
+.photo{
+  
+  float : right;
+  position : relative;
+  bottom :4.7cm;
+}
+
+
+body {
+margin: 0;
+padding: 0;
+background-color: rgb(190, 190, 196);
+font: 9pt "Franklin Gothic";
+}
+
+
+.page {
+width: 19cm;
+height: 28.4cm;
+padding: 10mm;
+margin:  auto;
+background: white;
+border: 5px;
+
+}
+
+
+h1 {
+border-top: 10px solid darkblue;
+}
+
+
+p.thicker {
+font-weight: 700;
+font-size: 16px;  
+letter-spacing: 0.5px;
+text-align: center;
+}
+
+
+/*.header{
+  display:flex;
+}*/
+
+/*.logo_img{
+  width: 20%;
+}
+
+.logo_img1{
+  width: 10%;
+}*/
+
+.heading_text{
+  padding-right : 2.2cm;
+
+}
+
+
+
+
+table {
+border-collapse: collapse;
+width: 18cm;
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+border-style:solid;
+border-color:rgb(57, 55, 59);
+font-size:13px;
+
+}
+
+td,th {
+
+padding: 10px;
+text-align:center;
+border-style:solid;
+border-color:black;
+}
+
+tr{
+height : 1.2cm;
+}
+
+th {
+background-color: #d8ebfc;
+color : rgb(55, 28, 150);
+font-size:15px;
+}
+
+
+.names 
+{
+font-family:Helvetica;
+font-size:12px;
+font-weight:bold;
+}
+
+.float_left
+{
+  float:left;
+
+}
+
+.float_right
+{
+float:right;
+
+}
+
+
+h2 {
+padding-top:5.5cm;
+}
+
+ul {
+  list-style: none;
+  display: table;
+}
+
+li {
+  display: table-row;
+}
+
+b {
+  display: table-cell;
+  padding-right: 1em;
+}
+
+t {
+  font-family:Helvetica;
+  font-size:12px;
+  font-weight:bold;
+  color : rgb(52, 59, 120);
+}
+
+
+.bottomright {
+  float : right;
+  position : relative;
+  bottom: -24mm;
+  right: 2cm;
+  font-size: 15px;
+  
+}
+
+.bottomleft {
+  float : left;
+  position : relative;
+  bottom: -21mm;
+  left : -1cm;
+  font-size: 15px;
+  
+}
+
+.bottomleft1 {
+  float : left;
+  position : relative;
+  bottom: -3mm;
+  left : 2.5cm;
+}
+
+.logo1{
+  width: 3cm;
+  height: 2cm;
+}
+
+.foot{
+  float : right;
+  position : relative;
+  bottom: -4.5cm;
+  right : 4.5cm;
+  font-size : 12px;
+}
+
+.pad{
+  background-color: rgb(144, 144, 177);
+}
+
+#button {
+  background-color: #4caf50;
+  border-radius: 5px;
+  margin-left: 650px;
+  margin-bottom: 5px;
+  color: white;
+}
